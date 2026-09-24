@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inscription d'un nouveau client</title>
+</head>
+<body bgcolor="#DCEBFF">
+
+	<section>
+	<form>
+		<h1>Inscription d'un nouveau client - Méditerranée</h1>
+
+		<table width="70%" border="0">
+
+
+		<tr>
+		<td><label for="nom">Nom :</label></td>
+		<td><input type="text" id="nom" name="nom"></td>
+		</tr>
+
+		<tr>
+		<td><label for="prenom">Prénom :</label></td>
+		<td><input type="text" id="prenom" name="prenom"></td>
+		</tr>
+
+		<tr>
+			<td><label for="date_naissance">Date de naissance :</label></td>
+			<td><input type="date" id="date_naissance" name="date_naissance"></td>
+
+		</tr>
+
+		<tr>
+			<td><label for="email">Adresse email :</label></td>
+			<td><input type="email" id="email" name="email"></td>
+
+		</tr>
+
+		<tr>
+			<td><label for="mdp">Mot de passe :</label></td>
+			<td><input type="text" id="mdp" name="mdp"></td>
+
+		</td>
+
+		<tr>
+			<td><label for="permis">Numéros de permis :</label></td>
+			<td><input type="text" id="permis" name="permis"></td>
+		</tr>
+
+		<tr>
+			<td><label for="nom">Nombre d'année d'ancienneté :</label></td>
+			<td><input type="number" id="anciennete" name="anciennete"></td></td>
+
+		</tr>
+
+		<tr>
+			<td><label for="ville">Ville :</label></td>
+
+			<td>
+				<select id="ville" name="ville">
+					<option value="paris">Paris</option>
+					<option value="versailles">Versailles</option>
+					<option value="creteil">Créteil</option>
+				</select>
+			</td>
+		</tr>
+
+		<tr>
+			<td><label for="adresse">Adresse :</label></td>
+			<td><textarea id="adresse" name="adresse" rows="4" cols="30" placeholder="Votre adresse"></textarea></td>
+
+		</tr>
+
+		<tr>
+			<td><p>Situation matrimoniale :</p></td>
+
+		<td><label for="marie_oui">Marié</label>
+		<input type="radio" id="marie_oui" name="marie" value="oui">
+
+		<label for="marie_non">Non marié</label>
+		<input type="radio" id="marie_non" name="marie" value="Non">
+		</td>
+
+	</tr>
+
+		<tr>
+			<td><p>Préférence de voiture :</p></td>
+
+		<td><label for="pref_auto">Automatique</label>
+		<input type="checkbox" id="pref_auto" name="preference_auto" value="automatique">
+
+		<label for="pref_manuelle">Manuelle</label>
+		<input type="checkbox" id="pref_manuelle" name="preference_manuelle" value="manuelle"></td>
+
+	</tr>
+
+
+
+
+		</table>
+
+		<button type="submit">Enregistrer</button>
+		<button type="reset">Annuler</button>
+
+
+	</form>
+	</section>
+
+	<footer>
+		<p>2026 Agence Méditerranée - Location de véhicules</p>
+	</footer>
+
+</body>
+</html>
