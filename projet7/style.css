@@ -1,12 +1,11 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: pink;
-    font-size: 2em;
 }
 
 .titre{
     background-color: red;
-    height: 200px;
+    height: 100px;
     width: 50%;
     margin: auto;
     color: yellow;
@@ -16,7 +15,7 @@ body{
 }
 
 .p1{
-    height: 400px;
+    height: 200px;
     width: 80%;
     margin: auto;
     text-align: center;
@@ -29,7 +28,7 @@ body{
 }
 
 .p2{
-    height: 400px;
+    height: 200px;
     width: 80%;
     margin: auto;
     text-align: center;
