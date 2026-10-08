@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: pink;
+    font-size: 2em;
+}
+
+.titre{
+    background-color: red;
+    height: 200px;
+    width: 50%;
+    margin: auto;
+    color: yellow;
+    text-align: center;
+    padding: 1px;
+    border-radius: 20px;
+}
+
+.p1{
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color: green;
+    color: white;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    border: rgb(255, 108, 108) 2px solid;
+}
+
+.p2{
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(34, 137, 255);
+    color: white;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
