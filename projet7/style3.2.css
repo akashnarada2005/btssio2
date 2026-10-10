@@ -1,0 +1,95 @@
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f3f6fb;
+    margin: 0;
+}
+
+h1 {
+    background-color: #d1e7ff;
+    color: #193a5a;
+    text-align: center;
+    padding: 20px 10px;
+    margin: 0 0 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section {
+    max-width: 1230px;
+    margin: auto;
+}
+
+.gb1, .gb2, .gb3 {
+    width: 32%;
+    padding: 12px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #badaff;
+    border: 1px solid #70a6e4;
+    border-radius: 15px;
+    float: left;
+    margin: 0 0.666%;
+    min-height: 388px;
+}
+
+.b1, .b3, .b5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: #0569d4;
+    color: white;
+    border: 1px solid #183653;
+    border-radius: 10px;
+    padding: 10px 5px;
+}
+
+.b2, .b6 {
+    background-color: white;
+    color: #293b4d;
+    border: 1px solid #cbd7e4;
+    border-radius: 10px;
+    margin-top: 10px;
+    min-height: 300px;
+    padding: 12px;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+.b4 {
+    margin-top: 15px;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.btn {
+       background-color: #ae6a36;
+    color: white;
+    width: 400px;
+    max-width: 90%;
+    padding: 14px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.btnDiv {
+    width: 100%;
+    text-align: center;
+    clear: both;
+}

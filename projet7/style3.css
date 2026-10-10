@@ -119,6 +119,7 @@ a{
 }
 
 .btnDiv{
+    width: 100%;
     text-align: center;
     clear: both;
 }
