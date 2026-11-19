@@ -1,47 +1,91 @@
-
 * {
-    margin: 0;
-    line-height: 1.6;
-    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: #F5F3EE;
-    color: #263B3A;
-}
-
-h1, h2 {
-    text-align: center;
+    margin: 0;
+    padding: 30px 25px;
+    font-family: Arial, sans-serif, system-ui, -apple-system, 'Open Sans';
+    background-color: #f4f6fb;
+    color: #1e293b;
 }
 
 h1 {
-    margin-top: 40px;
+    text-align: center;
+    font-size: 38px;
+    color: #2563eb;
     margin-bottom: 10px;
 }
 
 h2 {
-    margin-bottom: 25px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 40px;
 }
+
 
 .mesProjets {
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1100px;
+    margin: auto;
 }
 
-.mesProjets div {
-    width: 300px;
-    margin: 0 auto;
-    margin-bottom: 12px;
-}
 
-.mesProjets a {
+.projet {
     display: block;
-    background-color: #315B59;
-    color: white;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
     text-decoration: none;
-    text-align: center;
-    padding: 8px;
-    border-radius: 7px;
-    border: solid #274B49 1px;
+    color: inherit;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.3s;
+}
+
+.projet h3 {
+    margin: 0 0 12px;
+    font-size: 19px;
+    color: #2563eb;
+}
+
+
+.projet p {
+    margin: 0;
+    font-size: 14px;
+    color: #64748b;
+    line-height: 1.6;
+}
+
+
+.projet:hover {
+    transform: translateY(-5px);
+    border-color: #2563eb;
+    box-shadow: 0 10px 25px rgba(37, 99, 235, 0.15);
+    cursor: pointer;
+}
+
+.projet:focus-visible {
+    outline: 3px solid #2563eb;
+    outline-offset: 3px;
+}
+
+
+@media (max-width: 900px) {
+    .mesProjets {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (max-width: 600px) {
+    .mesProjets {
+        grid-template-columns: 1fr;
+    }
+
+    body {
+        padding: 25px 15px;
+    }
 }
